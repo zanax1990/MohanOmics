@@ -118,7 +118,7 @@ PG.IsSingleHit
 
 📸 App Preview
 
-(Optional: add screenshots here later)
+
 
 👨‍🔬 Author
 
