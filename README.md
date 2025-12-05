@@ -48,4 +48,20 @@ pip install -r requirements.txt
 UsageRun the application locally:Bashstreamlit run app.py
 Once running, the dashboard will open in your default browser at http://localhost:8501.📂 Input Data FormatThe tool is designed to parse Spectronaut DIApasef style reports (CSV or TSV). Ensure your input file contains the following columns:Column NameDescriptionPG.ProteinAccessionsUniProt Accession IDPG.GenesGene NamePG.QuantityRaw Intensity/QuantityR.ConditionExperimental Condition (Group)R.ReplicateReplicate NumberPG.QValue (Run-Wise)Quality Score for filteringPG.IsSingleHitBoolean flag for single peptide hits
 
+Dependencies
+streamlit
 
+pandas
+
+numpy
+
+scipy
+
+scikit-learn
+
+plotly
+
+gprofiler-official
+
+👨‍🔬 Author
+Jahanbakhsh Ghasemi Ph.D. Candidate, University of Connecticut 2025
